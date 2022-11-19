@@ -6,7 +6,7 @@ detectFile = open('model.pkl','rb')
 detect_Model = pickle.load(detectFile)
 detectFile.close()
 st.title("Language Detection App")
-input_test = st.text_input("Type or Copy your text", 'This is Surya Teja ')
+input_test = st.text_input("Type or Copy your text", 'This is Pr Submmsioin ')
 
 clicked = st.button("Detect Language")
 if clicked:
