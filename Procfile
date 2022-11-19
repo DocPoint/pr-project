@@ -1,1 +1,1 @@
-web: gunicorn analysis_2:app --log-file -
+web: sh setup.sh && streamlit run app.py
